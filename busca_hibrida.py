@@ -6,20 +6,17 @@ def busca_hibrida(uma_lista, item_pesquisado):
         for i in uma_lista:
             if i == item_pesquisado: encontrou = True; break
             elif i > item_pesquisado: encontrou = False; break
-            
-        if encontrou == True: return 'Valor foi encontrado usando a busca sequencial ordenada'
-        else: return 'Valor não foi encontrado ao utilizar a busca sequencial ordenada'
-        
+    
+        return encontrou
+
     else:
-        while inicio <= fim and not encontrou:
-            meio = (inicio + fim)//2
-            if uma_lista[meio] == item_pesquisado: encontrou = True
+        if len(uma_lista) == 0: return False
+        else:
+            meio = len(uma_lista)//2
+            if uma_lista[meio] == item_pesquisado: return True
             else:
-                if item_pesquisado < uma_lista[meio]: fim = meio-1
-                else: inicio = meio + 1
-                    
-        if encontrou == True: return 'Valor foi encontrado usando a busca binária'
-        else: return 'Valor não foi encontrado ao utilizar a busca binária'
+                if item_pesquisado < uma_lista[meio]: return busca_hibrida(uma_lista[:meio],item_pesquisado)
+                else: return busca_hibrida(uma_lista[meio+1:],item_pesquisado)
 
 lista_teste = [i for i in range(128)]
 print(busca_hibrida(lista_teste, 65))

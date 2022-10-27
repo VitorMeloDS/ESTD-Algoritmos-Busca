@@ -51,11 +51,18 @@ if __name__ == '__main__':
       while True:
         entrada = input('\nInfome o tamanho da lista e o elemento procurado respectivamente (separado por espaço): ').strip()
         if entrada == 'exit': _exit(0)
+
         else:
           entrada = entrada.split()
+
           if len(entrada) < 2 or len(entrada) > 2:
             print('\nValor inválido')
             sleep(2); clearTerm(); entradaDado()
+
+          elif int(entrada[0]) == 0 and int(entrada[1]) == 0 or int(entrada[0]) == 0:
+            print('\nValor inválido')
+            sleep(2); clearTerm(); entradaDado()
+
           else:
             qtd_lista = int(entrada[0])
             item_procurado = int(entrada[1])

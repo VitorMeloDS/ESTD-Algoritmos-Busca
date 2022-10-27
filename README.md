@@ -7,7 +7,7 @@ Conteúdo consultado: Aulas do professor Ricardo Nunes; [Listas Encadeadas e Lis
 Comentários da equipe:
 
 - [Vitor Melo](https://github.com/vitormelods)
-
+1. Não tive dificuldade ao realizar o processo de busca!
 - [Vinícius Gonçalves](https://github.com/gonssalves)
 
 - [Lucas Ferro](https://github.com/lucasferro0)

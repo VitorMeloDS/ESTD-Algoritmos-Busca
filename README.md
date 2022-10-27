@@ -19,7 +19,10 @@ Comentários da equipe:
 
 Dentre as três formas de busca a binária se mostrou a mais rápida, a sequencial ficou em último lugar e a híbrida no meio.
 
-A sequencial é a mais lenta pois procura o valor elemento por elemento;
-A binária é a mais rápida porque vai cortando a lista pela metade até encontrar o elemento.
-E a híbrida se encontra no meio porque é a mistura entre os dois, ela é rapida até 128 elementos na lista, depois ela passa a percorrer 1 por 1 e seu desempenho cai.
+A sequencial é a mais lenta, pois procura o valor de elemento por elemento;
+A binária é a mais rápida, porque vai cortando a lista pela metade até encontrar o elemento.
+E a híbrida se encontra no meio, porque é a mistura entre os dois.
+
+Mas o desempenho depende da situação. A híbrida pode se encaixar na maioria das situações de uma melhor forma.
+Já a sequencial e a binária podem ter um desempenho bom, ou ruim, dependendo da quantidade de elementos ou de qual elemento você está buscando.
 

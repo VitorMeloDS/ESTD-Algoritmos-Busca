@@ -11,6 +11,7 @@ Comentários da equipe:
 - [Vinícius Gonçalves](https://github.com/gonssalves)
 1. A implementação da busca híbrida não teve empecilhos.
 - [Lucas Ferro](https://github.com/lucasferro0)
+1. Não tive dificuldades
 
 
 

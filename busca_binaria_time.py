@@ -10,12 +10,10 @@ def valor_aleatorio_a_procurar():
   return random.randint(minimo,maximo*1.25)
 
 def busca_binaria(uma_lista, item_pesquisado):
-    print(uma_lista)
-    print(len(uma_lista))
     if len(uma_lista) == 0: return False
     else:
         meio = len(uma_lista)//2
-        print(meio)
+  
         if uma_lista[meio] == item_pesquisado: return True
         else:
             if item_pesquisado < uma_lista[meio]: return busca_binaria(uma_lista[:meio],item_pesquisado)

@@ -8,6 +8,6 @@ Comentários da equipe:
 
 - [Vitor Melo](https://github.com/vitormelods)
 
--[Vinícius Gonçalves](https://github.com/gonssalves)
+- [Vinícius Gonçalves](https://github.com/gonssalves)
 
 - [Lucas Ferro](https://github.com/lucasferro0)

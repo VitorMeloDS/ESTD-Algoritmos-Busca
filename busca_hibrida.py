@@ -19,16 +19,10 @@ if __name__ == '__main__':
       return True
 
   def busca_hibrida(uma_lista, item_pesquisado):
-    if item_pesquisado == 0: return True
+    if item_pesquisado == 0 : return True
 
     encontrou = False; tamanho_lista = len(uma_lista)
-
-    if (item_pesquisado < 0):
-      novaLitsa = uma_lista
-      uma_lista = []
-      uma_lista = [i for i in range(len(novaLitsa))]
-      item_pesquisado = item_pesquisado * -1
-    
+ 
     if tamanho_lista == 0: return 'Lista vazia'
     elif tamanho_lista < 128:
       for i in uma_lista:
@@ -64,10 +58,9 @@ if __name__ == '__main__':
             sleep(2); clearTerm(); entradaDado()
 
           else:
-            qtd_lista = int(entrada[0])
-            item_procurado = int(entrada[1])
-            if qtd_lista > 0: lista = [i for i in range(qtd_lista)]
-            else: lista = [-1 * i for i in range(-1 * qtd_lista)]
+            qtd_lista = abs(int(entrada[0]))
+            item_procurado = abs(int(entrada[1]))
+            lista = [i for i in range(qtd_lista)]
             if busca_hibrida(lista, item_procurado): print(f'{item_procurado} encontrado')
             else: print(f'{item_procurado} não encontrado')
                 

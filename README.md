@@ -9,8 +9,12 @@ Comentários da equipe:
 - [Vitor Melo](https://github.com/vitormelods)
 1. Não tive dificuldade ao realizar o processo de busca!
 - [Vinícius Gonçalves](https://github.com/gonssalves)
-  </br>A implementação da busca híbrida não teve empecilhos.
+1. </br>A implementação da busca híbrida não teve empecilhos.
 - [Lucas Ferro](https://github.com/lucasferro0)
+
+
+
+
 
 
 Dentre as três formas de busca a binária se mostrou a mais rápida, a sequencial ficou em último lugar e a híbrida no meio.

@@ -9,7 +9,7 @@ Comentários da equipe:
 - [Vitor Melo](https://github.com/vitormelods)
 1. Não tive dificuldade ao realizar o processo de busca!
 - [Vinícius Gonçalves](https://github.com/gonssalves)
-1. </br>A implementação da busca híbrida não teve empecilhos.
+1. A implementação da busca híbrida não teve empecilhos.
 - [Lucas Ferro](https://github.com/lucasferro0)
 
 
